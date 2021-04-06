@@ -4,7 +4,7 @@ Site em desenvolvimento.
 
 ## Tasks
 
-O versionamento das **Tasks** será realizado por meio do ([Github](https://github.com))
+O versionamento das **Tasks** será realizado por meio do [Github](https://github.com).
 
 ## Ícones
 
@@ -28,4 +28,4 @@ Caso queira colaborar com ideias e sugestões, fique à vontade para me contatar
 
 ### Referências
 
-([Meu Projeto](https://github.com/thribeiro8/portifolio))
+[Meu Projeto](https://github.com/thribeiro8/portifolio).
