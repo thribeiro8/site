@@ -1,17 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <!-- Meta -->
+    <!-- meta -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Title -->
+    <!-- title -->
     <title>Site - Thomas Ribeiro</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- favicon -->
+    <!-- prettier-ignore -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+    <!-- prettier-ignore -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <!-- prettier-ignore -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+    <!-- prettier-ignore -->
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- font awesome -->
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   </head>
   <body>
-    <!-- JS -->
-    <script src="./js/script.js"></script>
+    <div class="parent">
+      <!-- sidebar -->
+      <div class="sidebar">
+        <div class="sidebar-pos">
+          <!-- img -->
+          <div class="img-sidebar">
+            <img src="./img/logo.jpg" alt="minha foto de perfil" />
+          </div>
+
+          <!-- menu -->
+          <div class="menu">
+            <a class="selected" href="#">Sobre</a>
+            <a href="#">Experiência</a>
+            <a href="#">Educação</a>
+            <a href="#">Projetos</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <section class="description">
+          <h2>Thomas <span>Ribeiro</span></h2>
+          <h3>Recife - PE, Brasil.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            dolorum commodi ad pariatur veniam, necessitatibus vel, beatae iste
+            nemo at aspernatur temporibus inventore tenetur consequuntur itaque
+            vitae? Repellendus, sequi architecto?
+          </p>
+
+          <!-- social icons -->
+          <!-- prettier-ignore -->
+          <div class="icons-social">
+            <a href="https://github.com/thribeiro8/"><i class="fab fa-github"></i></a>
+            <a href="https://instagram.com/thribeiro8/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/thribeiro8/"><i class="fab fa-twitter"></i></a>
+          </div>
+        </section>
+      </div>
+    </div>
   </body>
+
+  <!-- JavaScript -->
+  <script src="./js/script.js"></script>
 </html>
